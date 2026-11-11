@@ -800,7 +800,13 @@ h3 { font-size: 1.18rem; font-family: "Inter", sans-serif; font-weight: 700; let
   .nav-links.open { display: flex; }
   .nav-links a { padding: 0.85rem 0.3rem; border-bottom: 1px solid var(--line); }
   .nav-links a:hover, .nav-links a.active { border-bottom-color: var(--line); color: var(--teal); }
-  .nav-cta-mobile { display: inline-flex; margin: 0.7rem 0.3rem; border-bottom: 0; }
+  .nav-links a.nav-cta-mobile {
+    display: inline-flex;
+    margin: 0.7rem 0.3rem;
+    border-bottom: 0;
+    color: #FBF8F2;
+    justify-content: center;
+  }
   .bento { grid-template-columns: 1fr; }
   .card-wide, .card-full { grid-column: span 1; grid-template-columns: 1fr; }
   .float-reminder { right: -4px; top: 2%; }
