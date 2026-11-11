@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BillKaro - Invoicing and payment tracking for Indian freelancers</title>
+  <meta name="description" content="BillKaro helps Indian freelancers send GST-ready invoices, automate payment reminders and track every rupee. Start free, no card needed.">
+  <meta property="og:title" content="BillKaro - Invoices that get you paid on time">
+  <meta property="og:description" content="GST-ready invoices, automatic reminders and clean reports for Indian freelancers.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-nav" id="siteNav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="BillKaro home">
+        <svg class="brand-mark" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <rect width="28" height="28" rx="8" fill="#17645F"/>
+          <path d="M9 8.5h10M9 12h6.5c2.2 0 3.5 1.2 3.5 3s-1.3 3-3.5 3H11l6 5" stroke="#F3EEE8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand-name">BillKaro</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Main">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+        <a href="#pricing" class="btn btn-primary btn-sm nav-cta-mobile">Start free</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#pricing" class="btn btn-primary btn-sm">Start free</a>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- hero -->
+    <section class="hero" id="top">
+      <div class="hero-spotlight" id="heroSpotlight" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Made for Indian freelancers</p>
+          <h1 class="reveal">Invoices that get you paid on time.</h1>
+          <p class="hero-sub reveal">BillKaro turns your work into GST-ready invoices in two minutes, nudges clients when they forget, and shows you exactly where every rupee stands.</p>
+          <div class="hero-actions reveal">
+            <a href="#pricing" class="btn btn-accent">Start free
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10m0 0L9 4m4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#how" class="btn btn-ghost">See how it works</a>
+          </div>
+          <dl class="hero-stats reveal">
+            <div class="stat">
+              <dt><span class="count" data-count="12400">0</span>+</dt>
+              <dd>invoices sent</dd>
+            </div>
+            <div class="stat">
+              <dt><span class="count" data-count="94">0</span>%</dt>
+              <dd>paid on time</dd>
+            </div>
+            <div class="stat">
+              <dt><span class="count" data-count="6">0</span> hrs</dt>
+              <dd>saved every week</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="mock-card">
+            <div class="mock-head">
+              <span class="mock-logo"></span>
+              <span class="mock-title">INV-2041</span>
+              <span class="pill pill-paid">Paid</span>
+            </div>
+            <p class="mock-amount">₹48,500</p>
+            <p class="mock-sub">Studio Nomad · Paid 2 days early</p>
+            <div class="mock-chart">
+              <span style="--h:38%"></span>
+              <span style="--h:55%"></span>
+              <span style="--h:44%"></span>
+              <span style="--h:70%"></span>
+              <span style="--h:62%"></span>
+              <span style="--h:88%"></span>
+              <span style="--h:76%"></span>
+            </div>
+            <div class="mock-foot">
+              <span>Nov collections</span>
+              <strong>₹1.9L</strong>
+            </div>
+          </div>
+          <div class="float-card float-reminder">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M9 2.2a4.4 4.4 0 0 0-4.4 4.4v2.4L3.2 11a.8.8 0 0 0 .7 1.2h10.2a.8.8 0 0 0 .7-1.2L13.4 9V6.6A4.4 4.4 0 0 0 9 2.2Zm-1.6 11a1.7 1.7 0 0 0 3.2 0" stroke="#17645F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div>
+              <strong>Reminder sent</strong>
+              <span>Rahul got a polite nudge</span>
+            </div>
+          </div>
+          <div class="float-card float-received">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><circle cx="9" cy="9" r="7" fill="#17645F"/><path d="m6 9.2 2 2 4-4.4" stroke="#F3EEE8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div>
+              <strong>₹12,000 received</strong>
+              <span>KalaKart Studio · UPI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- trust strip -->
+    <section class="trust">
+      <div class="container">
+        <p class="trust-label reveal">Trusted by 2,000+ freelancers and small studios</p>
+        <div class="trust-logos reveal" aria-label="Some of our customers">
+          <span class="wordmark wm-1">Pixelraft</span>
+          <span class="wordmark wm-2">KalaKart</span>
+          <span class="wordmark wm-3">desk&amp;dune</span>
+          <span class="wordmark wm-4">BRIGHTHIRE</span>
+          <span class="wordmark wm-5">Studio Nomad</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- features -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Features</p>
+          <h2>Everything between "work done" and "money received"</h2>
+          <p class="section-sub">No accounting degree needed. If you can send a WhatsApp message, you can run BillKaro.</p>
+        </div>
+
+        <div class="bento">
+          <article class="bento-card card-wide tilt reveal">
+            <div class="bento-text">
+              <h3>GST-ready invoices</h3>
+              <p>Add your GSTIN once. Every invoice carries the right tax breakup, SAC codes and your branding, and downloads as a clean PDF your CA will approve of.</p>
+            </div>
+            <div class="mini-invoice" aria-hidden="true">
+              <div class="mi-row mi-head"><span>Invoice</span><span>#INV-2042</span></div>
+              <div class="mi-row"><span>Logo design</span><span>₹30,000</span></div>
+              <div class="mi-row"><span>CGST 9%</span><span>₹2,700</span></div>
+              <div class="mi-row"><span>SGST 9%</span><span>₹2,700</span></div>
+              <div class="mi-row mi-total"><span>Total</span><span>₹35,400</span></div>
+            </div>
+          </article>
+
+          <article class="bento-card tilt reveal">
+            <span class="icon-chip" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M11 2.8a5.4 5.4 0 0 0-5.4 5.4v2.9l-1.7 2.6a1 1 0 0 0 .9 1.5h12.4a1 1 0 0 0 .9-1.5l-1.7-2.6V8.2A5.4 5.4 0 0 0 11 2.8ZM9 16.4a2.1 2.1 0 0 0 4 0" stroke="#17645F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Automatic reminders</h3>
+            <p>Polite nudges go out before and after the due date. You stay the good guy, BillKaro does the chasing.</p>
+          </article>
+
+          <article class="bento-card tilt reveal">
+            <span class="icon-chip" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M3 6.5h16M3 11h10M3 15.5h7" stroke="#17645F" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Know when you're paid</h3>
+            <p>Every invoice shows its status: sent, viewed, paid. No more "did they even see it?"</p>
+            <div class="status-line" aria-hidden="true">
+              <span class="st done">Sent</span><i></i><span class="st done">Viewed</span><i></i><span class="st">Paid</span>
+            </div>
+          </article>
+
+          <article class="bento-card tilt reveal">
+            <span class="icon-chip" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M6 2.8h10a1 1 0 0 1 1 1v15.4l-3-1.8-3 1.8-3-1.8-3 1.8V3.8a1 1 0 0 1 1-1Z" stroke="#17645F" stroke-width="1.6" stroke-linejoin="round"/><path d="M8.5 7.5h5M8.5 11h5" stroke="#17645F" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Expense tracking</h3>
+            <p>Snap a receipt, tag it to a client or project, and stop guessing where the money went.</p>
+          </article>
+
+          <article class="bento-card tilt reveal">
+            <span class="icon-chip" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="8" cy="7.5" r="3.2" stroke="#17645F" stroke-width="1.6"/><path d="M2.5 18.5c.6-3 2.8-4.6 5.5-4.6s4.9 1.6 5.5 4.6M14.5 4.6a3.2 3.2 0 0 1 0 5.8M16.5 14.1c1.7.7 2.8 2.1 3.1 4" stroke="#17645F" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Client portal</h3>
+            <p>Clients get one clean link with every invoice, due date and payment option in one place.</p>
+          </article>
+
+          <article class="bento-card tilt reveal">
+            <span class="icon-chip" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M4 18V10M9.3 18V4M14.7 18v-7M20 18H2" stroke="#17645F" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Reports that make sense</h3>
+            <p>Monthly collections, pending amounts and top clients, in charts you actually understand.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- how it works -->
+    <section class="section section-tint" id="how">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">How it works</p>
+          <h2>From signup to first invoice in two minutes</h2>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-num">1</span>
+            <h3>Add your clients</h3>
+            <p>Type a name and email, or import from your contacts. Rates and GSTIN get saved for next time.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">2</span>
+            <h3>Send the invoice</h3>
+            <p>Pick a client, add line items, hit send. The PDF and payment link land in their inbox.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">3</span>
+            <h3>Watch it get paid</h3>
+            <p>Reminders go out on their own. You get a ping the moment money lands.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- pricing -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Pricing</p>
+          <h2>Plans that grow with your client list</h2>
+          <p class="section-sub">Start free. Upgrade when the work picks up. Cancel anytime.</p>
+        </div>
+
+        <div class="billing-toggle reveal" role="group" aria-label="Billing period">
+          <button type="button" class="toggle-opt active" id="optMonthly" aria-pressed="true">Monthly</button>
+          <button type="button" class="toggle-opt" id="optYearly" aria-pressed="false">Yearly <span class="save-tag">save 20%</span></button>
+        </div>
+
+        <div class="plans">
+          <article class="plan reveal">
+            <h3>Free</h3>
+            <p class="plan-for">To try things out</p>
+            <p class="price"><span class="amount" data-monthly="₹0" data-yearly="₹0">₹0</span><span class="per">/month</span></p>
+            <ul>
+              <li>5 invoices a month</li>
+              <li>3 clients</li>
+              <li>Manual reminders</li>
+              <li>PDF downloads</li>
+            </ul>
+            <button type="button" class="btn btn-ghost btn-block plan-pick" data-plan="Free">Start free</button>
+          </article>
+
+          <article class="plan plan-popular reveal">
+            <span class="popular-tag">Most popular</span>
+            <h3>Pro</h3>
+            <p class="plan-for">For full-time freelancers</p>
+            <p class="price"><span class="amount" data-monthly="₹299" data-yearly="₹239">₹299</span><span class="per">/month</span></p>
+            <ul>
+              <li>Unlimited invoices</li>
+              <li>Unlimited clients</li>
+              <li>Automatic reminders</li>
+              <li>Expense tracking</li>
+              <li>Reports and exports</li>
+            </ul>
+            <button type="button" class="btn btn-primary btn-block plan-pick" data-plan="Pro">Choose Pro</button>
+          </article>
+
+          <article class="plan reveal">
+            <h3>Studio</h3>
+            <p class="plan-for">For small teams</p>
+            <p class="price"><span class="amount" data-monthly="₹799" data-yearly="₹639">₹799</span><span class="per">/month</span></p>
+            <ul>
+              <li>Everything in Pro</li>
+              <li>3 team seats</li>
+              <li>Branded client portal</li>
+              <li>Priority support</li>
+            </ul>
+            <button type="button" class="btn btn-ghost btn-block plan-pick" data-plan="Studio">Choose Studio</button>
+          </article>
+        </div>
+        <p class="plan-note reveal" id="billingNote">Prices in INR, GST included. Yearly plans bill once a year.</p>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="section section-tint" id="stories">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Customers</p>
+          <h2>Freelancers who stopped chasing payments</h2>
+        </div>
+        <div class="quotes">
+          <figure class="quote reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>I used to spend Sunday nights chasing payments on WhatsApp. Now the reminders go out on their own, and clients pay before I even think to check.</blockquote>
+            <figcaption>
+              <strong>Priya Sharma</strong>
+              <span>Brand designer, Jaipur</span>
+            </figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>My CA finally stopped complaining. Every invoice is GST-ready and the month-end report exports clean. Tax season was almost boring this year.</blockquote>
+            <figcaption>
+              <strong>Arjun Mehta</strong>
+              <span>Freelance developer, Pune</span>
+            </figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>Clients take me more seriously since my invoices stopped looking like Word documents. The client portal link alone is worth the upgrade.</blockquote>
+            <figcaption>
+              <strong>Sana Qureshi</strong>
+              <span>Content writer, Delhi</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- faq -->
+    <section class="section" id="faq">
+      <div class="container container-narrow">
+        <div class="section-head reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2>Questions freelancers actually ask</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item reveal">
+            <button type="button" class="faq-q" aria-expanded="false">
+              Is the free plan really free?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>Yes. 5 invoices and 3 clients every month, forever, no card needed. We make money when growing freelancers upgrade to Pro.</p></div>
+          </div>
+          <div class="faq-item reveal">
+            <button type="button" class="faq-q" aria-expanded="false">
+              Do my clients need a BillKaro account?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>No. They get an email with the invoice PDF and a payment link. Everything works from that one link, no signup on their side.</p></div>
+          </div>
+          <div class="faq-item reveal">
+            <button type="button" class="faq-q" aria-expanded="false">
+              Can I add GST to my invoices?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>Yes. Add your GSTIN once and every invoice shows CGST, SGST or IGST with the right breakup automatically.</p></div>
+          </div>
+          <div class="faq-item reveal">
+            <button type="button" class="faq-q" aria-expanded="false">
+              What happens when my free invoices run out?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>Nothing scary. Your data stays safe, you can still view everything, and new invoices wait until the month resets or you upgrade.</p></div>
+          </div>
+          <div class="faq-item reveal">
+            <button type="button" class="faq-q" aria-expanded="false">
+              Is my data safe with you?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>Your data is encrypted, backed up daily, and never sold. Export everything and leave anytime with two clicks.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cta band -->
+    <section class="cta-band">
+      <div class="container cta-inner reveal">
+        <h2>Stop chasing payments.</h2>
+        <p>Send your first invoice in the next two minutes.</p>
+        <a href="#pricing" class="btn btn-accent btn-lg">Start free</a>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Talk to a human</h2>
+          <p>Questions about pricing, GST or migrating from spreadsheets? Write to us, a real person replies within a day.</p>
+          <ul class="contact-list">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><rect x="2" y="3.5" width="14" height="11" rx="2" stroke="#17645F" stroke-width="1.5"/><path d="m3 5.5 6 4.5 6-4.5" stroke="#17645F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <a href="mailto:hello@billkaro.in">hello@billkaro.in</a>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 2.5h3l1.5 4-2 1.5a11 11 0 0 0 4 4L12 10.5l4 1.5v3a1.5 1.5 0 0 1-1.6 1.5C7.8 16 2 10.2 2 4.1A1.5 1.5 0 0 1 4 2.5Z" stroke="#17645F" stroke-width="1.5" stroke-linejoin="round"/></svg>
+              <a href="tel:+919820012345">+91 98200 12345</a>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M9 16s5.5-4.6 5.5-8.7A5.5 5.5 0 0 0 3.5 7.3C3.5 11.4 9 16 9 16Z" stroke="#17645F" stroke-width="1.5" stroke-linejoin="round"/><circle cx="9" cy="7.3" r="1.8" stroke="#17645F" stroke-width="1.5"/></svg>
+              <span>Koramangala, Bengaluru</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-form-wrap reveal">
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="field">
+              <label for="cfName">Your name</label>
+              <input type="text" id="cfName" name="name" autocomplete="name" placeholder="Ananya Rao">
+              <p class="field-error" id="errName" hidden></p>
+            </div>
+            <div class="field">
+              <label for="cfEmail">Email</label>
+              <input type="email" id="cfEmail" name="email" autocomplete="email" placeholder="you@example.com">
+              <p class="field-error" id="errEmail" hidden></p>
+            </div>
+            <div class="field">
+              <label for="cfMsg">Message</label>
+              <textarea id="cfMsg" name="message" rows="4" placeholder="Tell us what's on your mind"></textarea>
+              <p class="field-error" id="errMsg" hidden></p>
+            </div>
+            <input type="text" name="company" id="cfCompany" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <button type="submit" class="btn btn-primary btn-block" id="cfSubmit">Send message</button>
+            <p class="form-note" id="formNote" role="status"></p>
+          </form>
+          <div class="form-success" id="formSuccess" hidden>
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true"><circle cx="22" cy="22" r="20" fill="#17645F"/><path d="m14 22.5 5.5 5.5L30 17" stroke="#F3EEE8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <h3>Message sent</h3>
+            <p id="successText">Thanks! We'll write back within a day.</p>
+            <button type="button" class="btn btn-ghost" id="sendAnother">Send another message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#top" aria-label="BillKaro home">
+          <svg class="brand-mark" width="26" height="26" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <rect width="28" height="28" rx="8" fill="#F3EEE8"/>
+            <path d="M9 8.5h10M9 12h6.5c2.2 0 3.5 1.2 3.5 3s-1.3 3-3.5 3H11l6 5" stroke="#17645F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="brand-name">BillKaro</span>
+        </a>
+        <p>Invoicing and payment tracking for India's freelancers and small studios.</p>
+      </div>
+      <nav class="footer-col" aria-label="Product">
+        <h4>Product</h4>
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <nav class="footer-col" aria-label="Company">
+        <h4>Company</h4>
+        <a href="#stories">Customers</a>
+        <a href="#contact">Contact</a>
+        <a href="mailto:hello@billkaro.in">Email us</a>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> BillKaro · Made in India</p>
+      <a href="#top" class="to-top-link">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <button type="button" class="to-top" id="toTop" aria-label="Back to top" hidden>↑</button>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
